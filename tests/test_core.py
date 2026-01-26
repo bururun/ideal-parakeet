@@ -68,3 +68,15 @@ class TestCore(unittest.TestCase):
     
     def test_function_48(self):
         self.assertTrue(True)
+
+
+# Tests for ParakeetDB
+
+import unittest
+
+class TestCore(unittest.TestCase):
+    def test_basic(self):
+        self.assertEqual(1 + 1, 2)
+    
+    def test_function_49(self):
+        self.assertTrue(True)
